@@ -28,20 +28,19 @@ body {
   list-style: none;
 }
 
-#navbar li {
+#navbar ul li {
   display: inline;
 }
 
-#navbar a {
+#navbar ul > li > a {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
   padding-right: 20px;
-
 }
 
 #focus {
-  background: url("../images/bgimage1.jpg") center/cover no-repeat;
+  background: url("../images/yousef-espanioly-765756-unsplash.jpg") center/cover no-repeat;
   min-height: 300px;
   text-align: center;
   margin-bottom: 30px;
@@ -49,8 +48,8 @@ body {
 
 #focus h1 {
   color: #fff;
-  font-size: 50px;
-  line-height: 1.6em;
+  font-size: 45px;
+  line-height: 1.3em;
 }
 
 #main {
@@ -60,17 +59,14 @@ body {
   box-sizing: border-box;
 }
 
-#main h1:hover {
-  background: purple;
-  cursor: pointer;
-}
-
 #sidebar {
   float: right;
   width: 30%;
   background: #333;
   color: #fff;
+  text-align: center;
   padding: 10px;
+  margin-top: 30px;
   box-sizing: border-box;
 }
 
